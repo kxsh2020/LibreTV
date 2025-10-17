@@ -114,10 +114,15 @@ const API_SITES = {
         api: 'https://cj.lziapi.com/api.php/provide/vod/',
         name: '量子资源站'
     },
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
-        adult: true
+    qiqi: {
+        api: 'https://www.qiqiapi.com/api.php/provide/vod',
+        name: '七七资源',
+        adult: false
+    },
+    maotaizy: {
+        api: 'https://caiji.maotaizy.cc/api.php/provide/vod',
+        name: '茅台资源',
+        adult: false
     },
 };
 
